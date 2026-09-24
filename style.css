@@ -1,0 +1,346 @@
+/* ================= GENERAL ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+    background: #ffffff;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar-brand {
+    font-size: 1.35rem;
+}
+
+.navbar-brand i {
+    margin-right: 6px;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-left: 8px;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    opacity: 0.8;
+}
+
+
+/* ================= HERO ================= */
+
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(
+        135deg,
+        #eef7ff 0%,
+        #ffffff 50%,
+        #f1f8ff 100%
+    );
+}
+
+.hero-section h1 {
+    line-height: 1.2;
+}
+
+.hero-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 50px 30px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+}
+
+.hero-card i {
+    display: inline-block;
+}
+
+
+/* ================= SECTION TITLE ================= */
+
+.section-title {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.section-title span {
+    display: inline-block;
+    color: #0d6efd;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.section-title p {
+    color: #6b7280;
+    margin-bottom: 0;
+}
+
+
+/* ================= FORM ================= */
+
+.form-label {
+    font-weight: 600;
+}
+
+.form-control,
+.form-select {
+    min-height: 48px;
+    border-radius: 8px;
+}
+
+textarea.form-control {
+    min-height: auto;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+
+/* ================= CARDS ================= */
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    padding: 18px 22px;
+}
+
+.card-header h4 {
+    font-size: 1.1rem;
+}
+
+
+/* ================= INFO CARDS ================= */
+
+.info-card {
+    height: 100%;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.info-card i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background: #eaf3ff;
+    color: #0d6efd;
+    font-size: 1.4rem;
+}
+
+.info-card h5 {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.info-card p {
+    color: #6b7280;
+    margin-bottom: 0;
+}
+
+
+/* ================= SERVICE CARDS ================= */
+
+.service-card {
+    height: 100%;
+    padding: 30px 22px;
+    border-radius: 15px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    text-align: center;
+    transition: all 0.25s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.service-card i {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 18px;
+}
+
+.service-card h5 {
+    font-weight: 700;
+}
+
+.service-card p {
+    color: #6b7280;
+    margin-bottom: 0;
+}
+
+
+/* ================= TECHNOLOGY CARDS ================= */
+
+.technology-card {
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    padding: 35px 25px;
+    text-align: center;
+    transition: 0.25s ease;
+}
+
+.technology-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.tech-icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.html-icon {
+    background: #fff0eb;
+    color: #e34c26;
+}
+
+.css-icon {
+    background: #edf4ff;
+    color: #264de4;
+}
+
+.bootstrap-icon {
+    background: #f2ebff;
+    color: #7952b3;
+}
+
+.technology-card h4 {
+    font-weight: 700;
+}
+
+.technology-card p {
+    color: #6b7280;
+}
+
+
+/* ================= TABLE ================= */
+
+.table {
+    min-width: 850px;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+
+/* ================= FOOTER ================= */
+
+.footer {
+    background: #111827;
+    color: #ffffff;
+    padding: 35px 0;
+}
+
+.footer h5 {
+    font-weight: 700;
+}
+
+.footer p {
+    color: #d1d5db;
+}
+
+.footer small {
+    color: #9ca3af;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .hero-section {
+        padding: 75px 0;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+    }
+
+    .nav-link {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .section-padding {
+        padding: 55px 0;
+    }
+
+    .hero-section {
+        padding: 60px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 2.1rem;
+    }
+
+    .section-title h2 {
+        font-size: 1.7rem;
+    }
+
+    .card-body {
+        padding: 20px !important;
+    }
+}
